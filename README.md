@@ -1,6 +1,6 @@
 # seqarray-nf
 
-A nextflow pipeline for using SeqArray GDS files format APIs for VCF files.
+A nextflow pipeline for using [SeqArray](https://bioconductor.org/packages/release/bioc/html/SeqArray.html) GDS files format APIs for VCF files.
 
 ## Test run
 
