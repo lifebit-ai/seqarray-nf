@@ -1,0 +1,2 @@
+s3://lifebit-featured-datasets/IGV/vcf/chr22-simulated_hapgen-updated.vcf.gz
+s3://igv.org.test/data/D5227.NexPond-359781.vcf.gz
