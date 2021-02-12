@@ -6,7 +6,7 @@ LABEL authors="sangram@lifebit.ai" \
 
 RUN apt-get update && \
   apt-get install procps libxt-dev -y && \
-  conda install bioconductor-seqarray=1.26.0 -c bioconda -y && \
+  conda install bioconductor-seqarray=1.26.0 r-digest -c r -c bioconda -y && \
   conda clean -a
 
 # Copy additonal scripts
