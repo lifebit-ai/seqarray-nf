@@ -17,4 +17,4 @@ jobs:
           sudo mv nextflow /usr/local/bin/
       - name: Basic workflow tests
         run: |
-          nextflow run ${GITHUB_WORKSPACE} --input test_vcf.txt -profile docker,base
+          nextflow run ${GITHUB_WORKSPACE} --input test_vcfs.txt -profile docker,base
